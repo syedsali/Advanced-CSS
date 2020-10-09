@@ -1,0 +1,54 @@
+.Hover, .rotate, .translatex, .threed, .skew, .translatey, .scale{
+    width: 110px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-property: color, background-color, transform;
+    transition-duration: 4s;
+    
+}
+
+.Hover:hover{
+    color: yellow;
+    background-color: turquoise;
+}
+
+.rotate:hover{
+    color: yellowgreen;
+    background-color: blueviolet;
+    transform: rotate(360deg);
+}
+
+.translatex:hover{
+    color: cadetblue;
+    background-color: coral;
+    transform: translateX(30px);
+}
+
+.translatey:hover{
+    color: crimson;
+    background-color: darkgreen;
+    transform: translateY(30px);
+}
+
+.threed:hover{
+    color: darkkhaki;
+    background-color: darkorange;
+    transform: matrix3d(20px);
+}
+
+.skew:hover{
+    color: darkred;
+    background-color: darkslateblue;
+    transform: skewX(5deg) skewY(5deg);
+}
+
+.scale:hover{
+    color: deepskyblue;
+    background-color: dodgerblue;
+    transform: scaleX(2) scaleY(3);
+}

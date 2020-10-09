@@ -1,0 +1,22 @@
+body{
+    background-color: sandybrown;
+}
+.head{
+    height: 350px;
+    width: 250px;
+    background-color: seagreen;
+    color: black;
+    transition-property: color;
+    transition-duration: 4s;
+
+}
+
+.head:hover{
+    color: cornsilk;
+    font-family: sans-serif;
+    background-color: darkcyan;
+    font-variant: small-caps;
+    font-size: larger;
+    font: outline;
+
+}
