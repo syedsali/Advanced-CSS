@@ -1,3 +1,6 @@
+body{
+    background-color: salmon;
+}
 .Hover, .rotate, .translatex, .threed, .skew, .translatey, .scale{
     width: 110px;
     line-height: 0;
