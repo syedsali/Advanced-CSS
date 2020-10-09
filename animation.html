@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <title>Animation</title>
+    <style>
+
+        .sun{
+            border-radius: 50%;
+            background-color: yellow;
+            width: 100px;
+            line-height: 0;
+            padding: 50px 0;
+
+        }
+
+        .sky {
+            width: 100%;
+            height: 270px;
+            background-color: skyblue;
+        }
+
+        .grass {
+            width: 100%;
+            height: 230px;
+            background-color: green;
+        }
+
+        .road {
+            width: 100%;
+            height: 280px;
+            background-color: black;
+        }
+
+        .line {
+            border: 7px dashed whitesmoke;
+            width: 100%;
+            height: 120px;
+            position: relative;
+            top: 50%;
+        }
+
+        .img {
+            position: relative;
+            width: 200px;
+            bottom: 0px;
+            animation-name: car;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes car {
+            0%{transform: translateX(0%)}
+            50%{transform: translateY(50px)}
+            100%{transform: translate(1800px)}
+            
+
+
+            /* from{left: -300px;}
+            to{left: 1600px;} */
+        }
+    </style>
+</head>
+
+<body>
+    <nav> <a href="circles.html"> Circles </a></nav>
+    <div class="sky">
+         <div class="sun">
+
+        </div>
+    </div>
+
+    <div class="grass">
+
+    </div>
+
+    <div class="road">
+        <div class="line">
+            <img class="img" src="Images/173be52bdf5f3c6d748396442d6d3c7c.jpg" alt="">
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
