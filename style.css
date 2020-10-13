@@ -2,7 +2,7 @@ body{
     background-color: skyblue;
 }
 
-h1{
+/* h1{
     border: black solid 10px;
     border-radius: 20%;
     font-size: 50px;
@@ -10,9 +10,9 @@ h1{
     position: relative;
     width: 30%;
     animation-name: header1;
-    animation-duration: 10s;
+    animation-duration: 0s;
     animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
 
 @keyframes header1{
@@ -28,7 +28,7 @@ h2{
     font-family: 'Pacifico', cursive;
     color: chocolate;
     animation-name: header;
-    animation-duration: 5s;
+    animation-duration: 0s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     animation-direction: normal;
@@ -64,7 +64,7 @@ h2{
 #image{
     position: relative;
     animation-name: image;
-    animation-duration: 3s;
+    animation-duration: 0s;
     animation-fill-mode: forwards;
     transform: rotateY(180deg);
 }
@@ -76,9 +76,51 @@ h2{
 
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li {
+        float: left;
+        list-style-type: none;
 
+        opacity: 0.8;
+}
+ul li a{
+    border: black solid 1px;
+    box-shadow: 15px 8px 16px 15px black;
+    margin-right: 15px;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    color: maroon;
+    text-align: center;
 
+}
 
+ul li a:hover{
+    background-color: mediumspringgreen;
+    color: olivedrab;
+    font-size: 30px;
+}
+.dropdwn li a {
+    height: 25px;
+    line-height: 25px;
+}
+
+.dropdwn li {
+    float: none;
+}
+
+li.dropdwn{
+    visibility: hidden;
+}
+li:hover{
+    visibility: visible;
+}
 
 
 
