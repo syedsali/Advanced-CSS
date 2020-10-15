@@ -80,19 +80,19 @@ h2{
     margin: 0px;
     padding: 0px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
 }
 ul li {
         float: left;
         list-style-type: none;
-
         opacity: 0.8;
 }
 ul li a{
     border: black solid 1px;
-    box-shadow: 15px 8px 16px 15px black;
+    box-shadow: 8px 4px 12px 10px rosybrown;
     margin-right: 15px;
     text-decoration: none;
-    width: 100px;
+    width: 120px;
     height: 50px;
     line-height: 50px;
     display: inline-block;
@@ -101,10 +101,11 @@ ul li a{
 
 }
 
-ul li a:hover{
-    background-color: mediumspringgreen;
-    color: olivedrab;
-    font-size: 30px;
+ul li a:hover {
+    background-color:chocolate;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
 }
 .dropdwn li a {
     height: 25px;
@@ -115,10 +116,10 @@ ul li a:hover{
     float: none;
 }
 
-li.dropdwn{
+li .dropdwn{
     visibility: hidden;
 }
-li:hover{
+li:hover .dropdwn{
     visibility: visible;
 }
 

@@ -75,11 +75,82 @@
             /* from{left: -300px;}
             to{left: 1600px;} */
         }
+        *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+ul li {
+        float: left;
+        list-style-type: none;
+        opacity: 0.8;
+}
+ul li a{
+    border: black solid 1px;
+    box-shadow: 8px 4px 12px 10px rosybrown;
+    margin-right: 15px;
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+
+}
+
+ul li a:hover {
+    background-color:chocolate;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+.dropdwn li a {
+    height: 25px;
+    line-height: 25px;
+}
+
+.dropdwn li {
+    float: none;
+}
+
+li .dropdwn{
+    visibility: hidden;
+}
+li:hover .dropdwn{
+    visibility: visible;
+}
+
     </style>
 </head>
 
 <body>
-    <nav> <a href="circles.html"> Circles </a></nav>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="circles.html">Circles</a>
+                <div class="dropdwn">
+                    <ul>
+                        <li><a href= "circles.html">Circles</a> </li>
+                        <li><a href= "animation.html">Animation</a> </li>
+                        <li><a href= "transitions.html">Transitions</a> </li>
+
+                    </ul>
+
+                </div>
+            
+            </li>
+            <li><a href="animation.html">Animations</a></li>
+            <li><a href="transitions.html">Transitions</a></li>
+
+
+        </ul>
+        
+
+
+    </header> <br> <br>
+
     <div class="sky">
          <div class="sun">
 
