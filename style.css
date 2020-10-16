@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: skyblue;
-}
+} */
 
 h1{
     border: black solid 10px;
@@ -122,6 +122,50 @@ li .dropdwn{
 li:hover .dropdwn{
     visibility: visible;
 }
+
+@media screen and (max-width: 480px) {
+
+    body {
+        background-color: crimson;
+        font-family: monospace;
+        font-size: 25px;
+    }
+    .dropdwn li a {
+        height: 25px;
+        line-height: 25px;
+    }
+    
+    .dropdwn li {
+        float: none;
+    }
+    
+    li .dropdwn{
+        visibility: hidden;
+    }
+    li:hover .dropdwn{
+        visibility: visible;
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    body{
+        background-color: darkcyan;
+    }
+
+}
+
+@media screen and (min-width:1025px) {
+    body{
+        background-color: khaki;
+    }
+    .center{
+        font-size: 24px;
+
+    }
+}
+
+
 
 
 
